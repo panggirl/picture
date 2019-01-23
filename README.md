@@ -43,6 +43,11 @@ bitmap占用内存大小，与手机的屏幕密度、图片所放文件夹密�
   * 若在大于自己屏幕密度的文件夹下没找到此资源，则会向小于自己屏幕密度的文件夹下查找，如果存在，则会进行放大相应的倍数的平方，这两种情况图片占用内存为: 
 占用内存=图片宽度 X 图片高度/((资源文件夹密度/手机屏幕密度)^2) * 色彩格式每一个像素占用字节数
 
+#### 加载大图
+[高效加载大图](http://hukai.me/android-training-course-in-chinese/graphics/displaying-bitmaps/load-bitmap.html)
+
+[Android高效加载大图、多图解决方案，有效避免程序OOM](https://blog.csdn.net/guolin_blog/article/details/9316683)
+
 ### 适配
 [Android 屏幕适配：最全面的解决方案](https://www.jianshu.com/p/ec5a1a30694b)
 
